@@ -1,0 +1,28 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, 
+form,fieldset,input,textarea,th,td,header,section,footer{ 
+    padding: 0; 
+    margin: 0; 
+    font-family: "微软雅黑";
+} 
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+} 
+img { 
+    border: 0; 
+} 
+code,dfn,em,strong,th,var { 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+ol,ul { 
+    list-style: none; 
+} 
+h1,h2,h3,h4,h5,h6 { 
+    font-weight: normal; 
+    font-size: 100%; 
+} 
+
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.player__picture_1_init,
+.player__picture_2_init,
+.player__picture_3_init{
+	opacity: 0;
+	/*transform: translate(0 100%);*/
+	top: 100%;
+}
+
+.player__picture_1_done{
+	opacity: 1;
+	/*transform: translate(0 0);*/
+	top: 50%;
+	transition: all 1s;
+}
+.player__picture_2_done{
+	opacity: 1;
+	/*transform: translate(0 0);*/
+	top: 50%;
+	transition: all 1s 1s;
+}
+.player__picture_3_done{
+	opacity: 1;
+	/*transform: translate(0 0);*/
+	top: 50%;
+	transition: all 1s 1.5s;
+}
+
